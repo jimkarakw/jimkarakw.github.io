@@ -78,5 +78,5 @@ allWorkTtls.forEach((workTitle) => {
       invalidateOnRefresh: true, // to make it responsive
     },
   });
-  tl.to(".fade", { y: 0, opacity: 1, stagger: 0.1, duration: 0.5 }, "-=.5");
+  tl.to(".fade", { y: 0, opacity: 1, stagger: 0.1, duration: 0.5 }, "-=0.5");
 });
