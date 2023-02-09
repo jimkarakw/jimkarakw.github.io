@@ -37,9 +37,10 @@ allrows.forEach((row, i) => {
       },
       "-=0.5"
     ) //Change bg colors accordingly
-    .to(bgs[1].children[1], { backgroundColor: "#A0BDEA" })
-    .to(bgs[2].children[1], { backgroundColor: "#E88B7A" })
-    .to(bgs[3].children[1], { backgroundColor: "#C7C3A8" });
+    .to(bgs[1].children[1], { backgroundColor: "#BEB8B3" })
+    .to(bgs[2].children[1], { backgroundColor: "#A0BDEA" })
+    .to(bgs[3].children[1], { backgroundColor: "#E88B7A" })
+    .to(bgs[4].children[1], { backgroundColor: "#C7C3A8" });
   // End add animations
 });
 
